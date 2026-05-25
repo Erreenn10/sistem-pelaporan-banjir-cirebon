@@ -1,0 +1,20 @@
+# File .gitignore
+# Ignore uploads folder (foto yang diupload)
+assets/uploads/*
+
+# Ignore temporary files
+*.tmp
+*.log
+*.cache
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore database config (opsional - jika ada password)
+# config/database.php
